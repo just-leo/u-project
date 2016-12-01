@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongoDs": {
+    "name": "mongoDs",
+    "host": "127.0.0.1",
+    "port": 27017,
+    "database": "u_project",
+    "connector": "mongodb",
+    "user": "",
+    "password": ""
+  }
+}
