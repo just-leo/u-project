@@ -28,6 +28,74 @@ module.exports = function(app) {
           en: 'It\'s a tag line, where you can write a key point of your idea.',
           ru: 'Ключевые особенности'
         },
+        motivationText: {
+          en: 'Text that should motivate your visitors to take an action and push the button',
+          ru: 'Текст который должен мотивировать ваших посетителей к действию'
+        },
+        mainActionButton: {
+          en: 'Watch Video',
+          ru: 'Видео'
+        },
+        menu: {
+          gallery: {
+            en: 'Gallery',
+            ru: 'Галлерея'
+          },
+          pricing: {
+            en: 'Pricing',
+            ru: 'Цены'
+          },
+          contacts: {
+            en: 'Contacts',
+            ru: 'Контакты'
+          }
+        },
+        threeSteps: {
+          header: {
+            en: 'Solution in 3 Easy Steps',
+            ru: '3 простых шага'
+          },
+          subHeader: {
+            en: 'Explain that your product, service or event can solve anything in 3 easy steps.',
+            ru: 'Обьясните, что с помощью вашего продукта или сервиса можно решить все проблемы за три простых шага.'
+          },
+          stepHeader: {
+            en: 'Step',
+            ru: 'Шаг.'
+          },
+          stepsContent: [
+            {
+              en: 'Add short description of the Step 1, so your customers could feel how it\'s easy to get a solution with your product, service or event',
+              ru: 'Короткое описание шага 1, что ваши клиенты могут почувствоватьб как просто найти решение с помощью вашего продуктаб сервиса или события'
+            },
+            {
+              en: 'Add short description of the Step 2, so your customers could feel how it\'s easy to get a solution with your product, service or event',
+              ru: 'Короткое описание шага 2, что ваши клиенты могут почувствоватьб как просто найти решение с помощью вашего продуктаб сервиса или события'
+            },
+            {
+              en: 'Add short description of the Step 3, so your customers could feel how it\'s easy to get a solution with your product, service or event',
+              ru: 'Короткое описание шага 3, что ваши клиенты могут почувствоватьб как просто найти решение с помощью вашего продуктаб сервиса или события'
+            }
+          ]
+        },
+        adsBar: {
+          header: {
+            en: 'Time Limited Offer',
+            ru: 'Ограниченное предложение'
+          },
+          subHeader: {
+            en: 'Tell your visitors about some',
+            ru: 'Расскажите про'
+          },
+          helpText: {
+            en: '(with 50% OFF) It will raise the Conversion!',
+            ru: '(с 50% скидкой) Это поможет начать общение!'
+          },
+          actionButton: {
+            en: 'Call to action button',
+            ru: 'Действие'
+          }
+        },
         createdAt: Date.now()
       }, cb);
     });
