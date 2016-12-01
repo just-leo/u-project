@@ -1,6 +1,14 @@
 # u-project
 
-## Install
+## Dependencies
+* MongoDb
+* Loopback framework
+
+You can configure db connection in file "server/datasources.json"
+
+## Installation
+
+Next
 
 ```
 	$ npm install -g strongloop
@@ -15,3 +23,9 @@
 ```
 	$ node .
 ```
+
+_________
+
+Only for demo purposes! Translation not 100%
+
+__________
