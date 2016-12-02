@@ -96,6 +96,32 @@ module.exports = function(app) {
             ru: 'Действие'
           }
         },
+        promote: {
+          header: {
+            en: 'Promote Yourself',
+            ru: 'Расскажите о себе'
+          },
+          subHeader: {
+            en: 'Show your best to get a good offer',
+            ru: 'Покажите ваши лучшие навыки чтобы получить хорошее предложение'
+          }
+        },
+        pricing: {
+          header: {
+            en: 'Show Your Pricing Plans',
+            ru: 'Ваши тарифные планы'
+          },
+          subHeader: {
+            en: 'Let your visitors compare and choose the most suitable variant',
+            ru: 'Позвольте вашим посетителям сравнить и выбрать наиболее подходящий вариант'
+          }
+        },
+        clients: {
+          header: {
+            en: 'Show the List of Your Clients',
+            ru: 'Покажите список ваших клиентов'
+          }
+        },
         createdAt: Date.now()
       }, cb);
     });
