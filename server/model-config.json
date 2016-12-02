@@ -34,6 +34,14 @@
   },
   "Page": {
     "dataSource": "mongoDs",
-    "public": true
+    "public": true,
+    "options": {
+      "remoting": {
+        "sharedMethods": {
+          "*": false,
+          "findOne": true
+        }
+      }
+    }
   }
 }
